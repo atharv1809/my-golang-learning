@@ -9,9 +9,9 @@ func main() {
 	fmt.Printf("Atharv is:%+v", Atharv)
 }
 
-type User struct {
+type User struct { // in structs if the first letter of variable is capital then it is public else private
 	Name   string
 	Email  string
-	status bool
+	Status bool
 	Age    int
 }
